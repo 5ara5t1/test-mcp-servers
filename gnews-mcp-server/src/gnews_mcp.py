@@ -6,8 +6,8 @@ mcp = FastMCP("GNews MCP Server")
 
 ## Example tool given my main website
 @mcp.tool
-def add(a: int, b: int) -> int:
-    return a + b
+def get_top_10_headlines():
+    pass
 
 
 if __name__ == "__main__":
