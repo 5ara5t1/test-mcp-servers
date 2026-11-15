@@ -1,0 +1,44 @@
+[project]
+name = "gnews-mcp-server"
+version = "0.1.0"
+description = "A mcp server which retrieves headlines using FAST MCP from GNEWS.io"
+readme = "README.md"
+authors = [
+    { name = "5ara5t1", email = "257025118+5ara5t1@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.13.1",
+    "httpx",
+    "pydantic>2.0.0",
+    "fastmcp>=4.2.0",
+]
+
+[project.scripts]
+gnews-mcp-server = "gnews_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+# Directory where pytest looks for tests
+testpaths = "tests"
+
+# Import pytest can import modules from your source folder
+pythonpath = ["src"]
+
+# Default CLI Flags
+addopts = "-ra --strict-markers --maxfail=1"
+
+# Register custom markers to prevent typos
+markers = [
+    "slow: marks tests as slow",
+    "integration: marks integration tests",
+]
+
