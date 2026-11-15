@@ -1,4 +1,4 @@
-# test-mcp-servers
+# mcp-servers
 
 Small Model Context Protocol (MCP) servers in Python, written while working through a [Udemy course on building MCP servers](https://www.udemy.com/course/complete-mcp-developer-guide-ai-agents-servers-tools).
 
