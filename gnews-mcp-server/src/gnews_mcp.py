@@ -2,6 +2,13 @@ from fastmcp import FastMCP
 
 
 ## Creating FastMCP Object
-mcp = FastMCP()
+mcp = FastMCP("GNews MCP Server")
 
-print(type(mcp))
+## Example tool given my main website
+@mcp.tool
+def add(a: int, b: int) -> int:
+    return a + b
+
+
+if __name__ == "__main__":
+    mcp.run()
