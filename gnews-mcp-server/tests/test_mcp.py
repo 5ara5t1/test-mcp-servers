@@ -14,6 +14,7 @@ EXPECTED_TOOL_TOP_10_HEADLINES_FUNCTION_PARAMETERS = {'category', 'language', 'c
 TEST_PARAMATER_CATEGORY = "Technology"
 TEST_PARAMATER_LANGUAGE = "en"
 TEST_PARAMATER_COUNTRY = "us"
+TEST_API_KEY = "test-key-123"
 
 
 
@@ -27,8 +28,8 @@ def headlines_payload():
 
 @pytest.fixture
 def api_key(monkeypatch):
-    monkeypatch.setenv("GNEWS_API_KEY", "test-key-123")
-    return "test_key_123"
+    monkeypatch.setenv("GNEWS_API_KEY", TEST_API_KEY)
+    return TEST_API_KEY
 
 
 
@@ -79,6 +80,7 @@ async def test_fetch_top_10_headlines_missing_environment_error(monkeypatch):
     with pytest.raises(ToolError, match="ERROR: EMPTY GNEWS_API_KEY ENVIRONMENT_VARIABLE"):
         await get_top_10_headlines(category=TEST_PARAMATER_CATEGORY, language=TEST_PARAMATER_LANGUAGE, country=TEST_PARAMATER_COUNTRY)
 
+# Test get_top_10_headlines with mock http response
 @pytest.mark.asyncio
 async def test_returns_articles_from_gnews(respx_mock, api_key, headlines_payload):
     respx_mock.get(**GNEWS_ROUTE).mock(
@@ -88,6 +90,14 @@ async def test_returns_articles_from_gnews(respx_mock, api_key, headlines_payloa
     result = await get_top_10_headlines(category=TEST_PARAMATER_CATEGORY, language=TEST_PARAMATER_LANGUAGE, country=TEST_PARAMATER_COUNTRY)
 
     assert result == headlines_payload["articles"]
+
+# # Test expected return records
+# @pytest.mark.asyncio
+# async def test_sends_correct_query_params(respx_mock, api_key, headlines_payload):
+#     route = respx_mock.get(**GNEWS_ROUTE).mock(
+#         return_value = httpx.Response(200, json=headlines_payload)
+#     )
+#     await get_top_10_headlines()
 
 
 

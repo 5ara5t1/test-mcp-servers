@@ -2,6 +2,7 @@ from fastmcp import FastMCP
 from fastmcp.exceptions import ToolError
 import os
 import asyncio
+import httpx
 
 
 
@@ -14,6 +15,17 @@ async def get_top_10_headlines(category: str, language: str, country: str):
     """This tool gathers the top 10 english headlines in the united states. you must provide a GNews API key as an environment variable. A json array of raw data will be returned from gnews."""
     if "GNEWS_API_KEY" not in os.environ:
         raise ToolError("ERROR: EMPTY GNEWS_API_KEY ENVIRONMENT_VARIABLE")
+    
+    params = { "category":category, "lang":language, "country":country, "max":10,
+                "apikey":os.environ["GNEWS_API_KEY"]}
+    
+    async with httpx.AsyncClient(timeout=10) as client:
+        response = await client.get(
+            "https://gnews.io/api/v4/top-headlines",
+            params=params,
+        )
+
+    return response.json()["articles"]
     
     
 
