@@ -1,6 +1,6 @@
 
 from gnews_mcp import mcp, get_top_10_headlines
-from fastmcp import FastMCP
+from fastmcp import FastMCP, Client
 import asyncio
 from fastmcp.exceptions import ToolError
 import pytest
@@ -59,3 +59,11 @@ async def test_fetch_top_10_headlines_missing_environment_error(monkeypatch):
         await get_top_10_headlines(TEST_PARAMATER_CATEGORY, TEST_PARAMATER_LANGUAGE)
 
 
+# FUNCTIONAL_TESTS
+@pytest.mark.asyncio
+async def test_missing_key_via_client(monkeypatch):
+    monkeypatch.delenv("GNEWS_API_KEY", raising=False)
+
+    async with Client(mcp) as client:
+        with pytest.raises(ToolError):
+            await client.call_tool("get_top_10_headlines", {"category": TEST_PARAMATER_CATEGORY, "language": TEST_PARAMATER_LANGUAGE})
