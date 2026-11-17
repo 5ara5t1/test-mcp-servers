@@ -1,0 +1,160 @@
+{
+    "information": {
+        "realTimeArticles": {
+            "message": "On the Free plan, articles arrive with a 12-hour delay. Paid plans return them in real time: https://gnews.io/pricing"
+        }
+    },
+    "totalArticles": 205800,
+    "articles": [
+        {
+            "id": "92c0f4279cd1948a421a31c4c302e95b",
+            "title": "PS5 Firmware Update 14.23 Out Now",
+            "description": "Sony has released a new PS5 firmware security update just a day before the release of GTA 6, and hot on the heels of a new claim from a prominent hacker around the console.",
+            "content": "Sony has released a new PS5 firmware security update just a day before the release of GTA 6, and hot on the heels of a new claim from a prominent hacker around the console.\nPS5 system software update 26.07-14.23.00 is available now, weighing in at 1.... [4170 chars]",
+            "url": "https://www.ign.com/articles/sony-squeezes-in-last-minute-ps5-firmware-security-update-ahead-of-gta-6-release-date-amid-fresh-hacker-claim",
+            "image": "https://assets-prd.ignimgs.com/2026/11/17/vintage-vice-city-pack-exclusive-looks-05-1794910948115.jpg?width=1280&format=jpg&auto=webp&quality=80",
+            "publishedAt": "2026-11-17T10:26:29Z",
+            "lang": "en",
+            "source": {
+                "id": "671e8665abef6cb324125f81895d4623",
+                "name": "IGN",
+                "url": "https://www.ign.com"
+            }
+        },
+        {
+            "id": "e63dbec5730778b4d176165b5d343af1",
+            "title": "The Smallest V10 To Ever Power A Car Was The Size Of Most 4-Cylinders",
+            "description": "The Cannaught Type D features a 2.0-liter V10 that's either paired with an electric motor for 162 hp or a supercharger for 300 hp, and it weighs under a ton.",
+            "content": "V10 engines are the ultimate metaphors for what gearheads love about performance cars — relics of a bygone era where noise, power and absolute combustion were the go-to recipes of kings. The Lexus LFA and Porsche Carrera GT – arguably two of the grea... [3263 chars]",
+            "url": "https://www.jalopnik.com/2318229/smallest-v10-connaught-type-d-2-liters-size-of-4-cylinder-engine/",
+            "image": "https://www.jalopnik.com/img/gallery/the-smallest-v10-to-ever-power-a-car-was-the-size-of-most-4-cylinders/l-intro-1794605735.jpg",
+            "publishedAt": "2026-11-17T10:25:00Z",
+            "lang": "en",
+            "source": {
+                "id": "58586d5996e805764d03359b7378d898",
+                "name": "Jalopnik",
+                "url": "https://www.jalopnik.com"
+            }
+        },
+        {
+            "id": "fc9b56aab62e455b2b54ce1a7bf04e4f",
+            "title": "Grand Theft Auto VI Revs Up for a Worldwide Takeover",
+            "description": "More than a decade in the making, the newest installment of the video game franchise is set to bring in billions and set a new standard for the industry.",
+            "content": "The year’s signature cultural event is expected to arouse the same fan passion as a sports championship, earn the eye-popping money of the biggest summer movie blockbuster and prompt the same obsessive study as a new Taylor Swift album. And it will a... [2297 chars]",
+            "url": "https://www.nytimes.com/2026/11/17/arts/grand-theft-auto-vi-hype-success.html",
+            "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17cul-gta-blockbuster-jwvp/17cul-gta-blockbuster-jwvp-facebookJumbo.jpg",
+            "publishedAt": "2026-11-17T10:02:03Z",
+            "lang": "en",
+            "source": {
+                "id": "2f580dc49292a1caf59cd86dd3c9e60b",
+                "name": "The New York Times",
+                "url": "https://www.nytimes.com"
+            }
+        },
+        {
+            "id": "1d65b6bc0ec06981d7d52ead1c7ed2f2",
+            "title": "Neural Rendering Could Keep Xbox Project Helix Affordable",
+            "description": "For the 25th anniversary of Xbox, celebrating one of its longest-running projects, Microsoft announced that it sees great potential in new technologies that could lower hardware costs while enhancing visual fidelity. According to Jason Ronald, Xbox VP for next-generation technologies, neural...",
+            "content": "17 Comments on Neural Rendering Could Keep Xbox Project Helix Affordable\n#1\nKwadratowicz\nTrrrryt\nAnd when I read the title I thought maybe Microsoft would run Xbox Helix as decentralised AI bot farm :D\nIf the output quality is great and input lag is ... [9150 chars]",
+            "url": "https://www.techpowerup.com/354878/neural-rendering-could-keep-xbox-project-helix-affordable",
+            "image": "https://www.techpowerup.com/img/PyYRGQRXSKRIBYk5.jpg",
+            "publishedAt": "2026-11-17T06:57:45Z",
+            "lang": "en",
+            "source": {
+                "id": "e839df87b71e4c8fd0ef60546fdd036c",
+                "name": "TechPowerUp",
+                "url": "https://www.techpowerup.com"
+            }
+        },
+        {
+            "id": "6d2cb6735461decf0484a8ad9a7a615d",
+            "title": "Pixel Phones Crazy New Virtual Gamepad is Finally Here (Updated)",
+            "description": "Google sent out a surprise update today for the Google Play Store that brings a new gaming feature to its foldable lineup. If you were ever hoping to find an on-screen virtual gamepad on that big foldable display, it’s now here. An update is rolling out to the Google Play Store as v54.1 starting today...",
+            "content": "Google sent out a surprise update today for the Google Play Store that brings a new gaming feature to its foldable lineup. If you were ever hoping to find an on-screen virtual gamepad on that big foldable display, it’s now here.\nAn update is rolling ... [1607 chars]",
+            "url": "https://www.droid-life.com/2026/11/16/google-just-gave-pixel-fold-owners-the-sweetest-virtual-gamepad/",
+            "image": "https://www.droid-life.com/wp-content/uploads/2026/09/Pixel-11-Pro-Fold-Review-8.jpg",
+            "publishedAt": "2026-11-17T06:49:59Z",
+            "lang": "en",
+            "source": {
+                "id": "1b9c4b6d2696600c72a99ec7c2c177cb",
+                "name": "Droid Life",
+                "url": "https://www.droid-life.com"
+            }
+        },
+        {
+            "id": "3033851edfebb775a810e5253ea84596",
+            "title": "How to play GTA 6 early using the 'New Zealand trick'",
+            "description": "This guide explains how to play Grand Theft Auto 6 as early as possible, by changing the time and date on your console to the New Zealand timezone.",
+            "content": "The Grand Theft Auto 6 \"New Zealand trick\" is a popular method players are using to play the world's most anticipated game a little early, but you need to know exactly what to do. It involves changing the time and date on your console to New Zealand'... [1816 chars]",
+            "url": "https://www.polygon.com/gta-6-grand-theft-auto-new-zealand-trick-how-to-play-early/",
+            "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gta-6-new-zealand-trick-header.jpg?w=1600&h=900&fit=crop",
+            "publishedAt": "2026-11-17T05:01:18Z",
+            "lang": "en",
+            "source": {
+                "id": "3c558868e21c62c53389ba33e977b46d",
+                "name": "Polygon.com",
+                "url": "https://www.polygon.com"
+            }
+        },
+        {
+            "id": "30741b2ecf54b9381ee08775e5d74cc0",
+            "title": "iPhone Duo gets one of Face ID's best features with upcoming iOS 27.3 update",
+            "description": "Soon, your alarms, timers, and phone calls will be less disruptive on iPhone Duo. Unlock with Front Camera feature With...",
+            "content": "Soon, your alarms, timers, and phone calls will be less disruptive on iPhone Duo.\nUnlock with Front Camera feature\nWith today’s iOS 27.3 developer beta 2, iPhone Duo gained a new feature: Unlock with Front Camera. This lets you unlock your iPhone Duo... [1647 chars]",
+            "url": "https://9to5mac.com/2026/11/16/iphone-duo-gets-one-of-face-ids-best-features-with-upcoming-ios-27-3-update/",
+            "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/iPhone-Duo-Attention-Aware-Features-FI-Fixed.png?resize=1200,628",
+            "publishedAt": "2026-11-17T03:15:00Z",
+            "lang": "en",
+            "source": {
+                "id": "643d269d91c5aa81638bebba12d57dff",
+                "name": "9to5Mac",
+                "url": "https://9to5mac.com"
+            }
+        },
+        {
+            "id": "7a9d37a540f4f80792df0aadc51411af",
+            "title": "The Galaxy S27 Ultra could finally kill Samsung's most iconic feature",
+            "description": "A favorite camera may not survive the overhaul",
+            "content": "The Samsung Galaxy S27 is expected to break cover in just over two months, and leaks about its new features and biggest changes are continuing to gain traction.\nThe latest chatter is all about the overhauled design of the Galaxy S27 Ultra and S27 Pro... [2157 chars]",
+            "url": "https://www.androidpolice.com/galaxy-s27-ultra-could-finally-kill-samsung-most-iconic-feature/",
+            "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/02/galaxy-s26-ultra-back.JPG?w=1600&h=900&fit=crop",
+            "publishedAt": "2026-11-17T03:06:00Z",
+            "lang": "en",
+            "source": {
+                "id": "22e6fb8c6790d769287f0f057fea36e9",
+                "name": "Android Police",
+                "url": "https://www.androidpolice.com"
+            }
+        },
+        {
+            "id": "629f9a48ffc225f5c540b07ec21e9c9b",
+            "title": "Splatoon 3 Version 12.0.0 Announced, Here Are The Full Patch Notes",
+            "description": "The dev team also has another update on the way - Nintendo's team-based squid-shooter Splatoon 3 is still going strong, and this week the title is getting up...",
+            "content": "Nintendo's team-based squid-shooter Splatoon 3 is still going strong, and this week the title is getting updated to Version 12.0.0.\nThis major update will come with changes to multiplayer, including weapon adjustments and battle changes, and there'll... [9217 chars]",
+            "url": "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-0-announced-here-are-the-full-patch-notes",
+            "image": "https://images.nintendolife.com/596b7cafcbe55/1280x720.jpg",
+            "publishedAt": "2026-11-17T02:05:00Z",
+            "lang": "en",
+            "source": {
+                "id": "dd2cbc293c058fbe38c99af3f90e76c4",
+                "name": "Nintendo Life",
+                "url": "https://www.nintendolife.com"
+            }
+        },
+        {
+            "id": "c4482e314e797dee4062e4efb728ff0b",
+            "title": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
+            "description": "\"After just one week\" - The Zelda: Ocarina of Time remake for Switch 2 got off to an outstanding start, selling over five million copies (approx 5.2 million ...",
+            "content": "The Zelda: Ocarina of Time remake for Switch 2 got off to an outstanding start, selling over five million copies (approx 5.2 million units) in just four days. Sales in the UK and Japan have contributed to this, and now, Circana Retail Tracking Servic... [1260 chars]",
+            "url": "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us",
+            "image": "https://images.nintendolife.com/b5746d8268890/1280x720.jpg",
+            "publishedAt": "2026-11-17T01:15:00Z",
+            "lang": "en",
+            "source": {
+                "id": "dd2cbc293c058fbe38c99af3f90e76c4",
+                "name": "Nintendo Life",
+                "url": "https://www.nintendolife.com"
+            }
+        }
+    ]
+}
